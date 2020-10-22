@@ -5673,7 +5673,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Dear Doctor,
 
-    
+
 
     This patient, Mrs. Patricia Wilson, 49, presented
     to the emergency department with a 20-minute history of central chest pain. Examination
@@ -5682,18 +5682,18 @@ MonoBehaviour:
     Please advise on further investigation
     and management.
 
-    
+
 
     Yours faithfully,
 
     ER Nurse
 
-    
 
-    (Your
-    task is to interview the patient and, based on the history you obtain, construct
-    a differential diagnosis and plan for investigation. You should explain these
-    to the patient and answer any questions they may have.)'
+
+    (Your task is to
+    interview the patient and, based on the history you obtain, construct a differential
+    diagnosis and plan for investigation. You should explain these to the patient
+    and answer any questions they may have.)'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5793,7 +5793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1026.4045, y: -1570.0142}
+  scrollPos: {x: -1685.4225, y: -1652.3937}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -5804,8 +5804,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1866310936}
+  selectedCommands:
+  - {fileID: 1866310845}
   variables: []
   description: 
   stepPause: 0
@@ -14185,7 +14187,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Work Life
   description: 
-  targetBlock: {fileID: 1866310934}
+  targetBlock: {fileID: 1866310932}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -14210,7 +14212,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Drug Use
   description: 
-  targetBlock: {fileID: 1866310934}
+  targetBlock: {fileID: 1866310931}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -14235,7 +14237,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Alcohol
   description: 
-  targetBlock: {fileID: 1866310934}
+  targetBlock: {fileID: 1866310930}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -14260,7 +14262,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Sexual Activity
   description: 
-  targetBlock: {fileID: 1866310934}
+  targetBlock: {fileID: 1866310929}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -14310,7 +14312,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Home Life
   description: 
-  targetBlock: {fileID: 1866310934}
+  targetBlock: {fileID: 1866310933}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
