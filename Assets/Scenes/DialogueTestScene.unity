@@ -6145,7 +6145,6 @@ GameObject:
   - component: {fileID: 1866311460}
   - component: {fileID: 1866311459}
   - component: {fileID: 1866311458}
-  - component: {fileID: 1866310849}
   - component: {fileID: 1866311494}
   - component: {fileID: 1866311493}
   - component: {fileID: 1866311492}
@@ -6203,6 +6202,7 @@ GameObject:
   - component: {fileID: 1866311502}
   - component: {fileID: 1866311501}
   - component: {fileID: 1866311505}
+  - component: {fileID: 1866310849}
   m_Layer: 0
   m_Name: SliVR_DialogueTree
   m_TagString: Untagged
@@ -6327,7 +6327,7 @@ MonoBehaviour:
   itemId: 0
   blockName: Start
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1866310849}
   commandList:
   - {fileID: 1866310497}
   - {fileID: 1866310496}
@@ -6346,7 +6346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -2492.5703, y: -1603.667}
+  scrollPos: {x: 657.1764, y: 161.15613}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 412
@@ -17580,7 +17580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1866310936}
+  parentBlock: {fileID: 1866310499}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
 --- !u!114 &1866310850
@@ -19733,7 +19733,7 @@ MonoBehaviour:
   itemId: 370
   blockName: SocialHistory
   description: 
-  eventHandler: {fileID: 1866310849}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1866310935}
   - {fileID: 1866310848}
