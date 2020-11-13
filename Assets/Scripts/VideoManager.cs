@@ -31,12 +31,20 @@ public class VideoManager : MonoBehaviour
         {
             PlayVideoClip(1);
         }
+
+        /*
+        if (!videoPlayer.isPlaying)
+        {
+            videoPlayer.clip = vidClips[0];
+        }
+        */
     }
 
     public void PlayVideoClip (int clipID)
     {
         videoPlayer.clip = vidClips[clipID];
         videoPlayer.Play();
+        videoPlayer.isLooping = false;
     }
 
 }
