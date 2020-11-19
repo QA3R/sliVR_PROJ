@@ -7885,7 +7885,6 @@ GameObject:
   - component: {fileID: 1866311053}
   - component: {fileID: 1866311052}
   - component: {fileID: 1866311051}
-  - component: {fileID: 1866310849}
   - component: {fileID: 1866311103}
   - component: {fileID: 1866311102}
   - component: {fileID: 1866311101}
@@ -8132,6 +8131,7 @@ GameObject:
   - component: {fileID: 1866311277}
   - component: {fileID: 1866311276}
   - component: {fileID: 1866310831}
+  - component: {fileID: 1866310849}
   m_Layer: 0
   m_Name: SliVR_DialogueTree
   m_TagString: Untagged
@@ -8264,7 +8264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1910.19, y: 558.92645}
+  scrollPos: {x: -344.58807, y: 181.65051}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -8275,7 +8275,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1866310499}
   selectedCommands: []
   variables:
   - {fileID: 1866310958}
@@ -20589,7 +20590,7 @@ MonoBehaviour:
   menuDialog: {fileID: 1633951635}
 --- !u!114 &1866310849
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -40721,9 +40722,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1306
   indentLevel: 0
-  storyText: 'Not Revelant Questions:
-
-'
+  storyText: "<b>You asked the following questions that were not relavant:\n \n</b>"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -43008,7 +43007,7 @@ MonoBehaviour:
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  setMenuDialog: {fileID: 0}
+  setMenuDialog: {fileID: 1147535142}
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -43072,7 +43071,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 474
+  itemId: 1457
   blockName: Congrats
   description: 
   eventHandler: {fileID: 0}
