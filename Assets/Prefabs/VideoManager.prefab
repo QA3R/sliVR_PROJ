@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &699772458109412228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5915764029379974539}
+  - component: {fileID: 1409524654066174018}
+  m_Layer: 0
+  m_Name: VideoManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5915764029379974539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699772458109412228}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 585.26044, y: 324.65274, z: -29.365173}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1409524654066174018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699772458109412228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3af3a8889105c204f8c0867b26b983bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidClips:
+  - {fileID: 32900000, guid: ef99ea5cef815064097c6fa87e4ff4a4, type: 3}
+  - {fileID: 32900000, guid: 216691a55303c8e47b78b97688aa063b, type: 3}
+  - {fileID: 32900000, guid: d4cfc117331999a43b8d203b3954eefb, type: 3}
+  - {fileID: 32900000, guid: 8ee040a386180fb48a1dcd9b815407fe, type: 3}
+  - {fileID: 32900000, guid: 9ed24de5de623f4478d0f3b74c779abd, type: 3}
+  - {fileID: 32900000, guid: bebffd0ed5596804e920666ac7acc85a, type: 3}
+  - {fileID: 32900000, guid: e1ee4abd981c7704d91c4df8ec24663a, type: 3}
+  - {fileID: 32900000, guid: 2e32eac984d50fd4c9041cc225737185, type: 3}
+  - {fileID: 32900000, guid: 195b13a891ad235448968164e5c15f20, type: 3}
+  - {fileID: 32900000, guid: 9f3a8168ecbf0034591b0b50730f0d19, type: 3}
+  - {fileID: 32900000, guid: 7b6e0bc7be0acdb4ebf4a2d401b7cc1b, type: 3}
+  - {fileID: 32900000, guid: 6d1db5cca66272243a24573f985774be, type: 3}
+  - {fileID: 32900000, guid: 35849957f021dec4c801097aec45ef15, type: 3}
+  - {fileID: 32900000, guid: 07831ff625ec145438bf43f6a745e974, type: 3}
+  - {fileID: 32900000, guid: ca8a5cb8053f99140afa02d9d740f7d2, type: 3}
+  - {fileID: 32900000, guid: f4b89a5ce76663343a781597b78a6f12, type: 3}
+  - {fileID: 32900000, guid: b77dd63054c6ca64e9341597faf70bd4, type: 3}
+  - {fileID: 32900000, guid: d299a6fef75b4b6498e0b13acf629e08, type: 3}
+  - {fileID: 32900000, guid: 10e5ce2c068148e40b514ce9cd88e0a0, type: 3}
+  videoPlayerObj: {fileID: 0}

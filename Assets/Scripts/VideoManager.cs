@@ -5,46 +5,54 @@ using UnityEngine.Video;
 
 public class VideoManager : MonoBehaviour
 {
-    [SerializeField]
-    private VideoClip[] vidClips;
-
-    [SerializeField]
-    public GameObject videoPlayerObj;
+    #region Variables
+   
+    [SerializeField] private VideoClip[] vidClips;
+    [SerializeField] public GameObject videoPlayerObj;
     private VideoPlayer videoPlayer;
+  
+    #endregion
 
+    #region Start and OnDisable Method 
+ 
     // Start is called before the first frame update
+    // Subscribes to the VideoPlayer.loopPointReached event
     void Start()
     {
-        //videoPlayerObj = GameObject.Find("ScreenSpace");
         videoPlayer = videoPlayerObj.GetComponent<VideoPlayer>();
+        videoPlayer.loopPointReached += PlayIdle;
     }
 
-    // Update is called once per frame
-    void Update()
+    // Unsubscribes from the VideoPlayer.loopPointReach event when disabled
+    private void OnDisable()
     {
-        if (Input.GetKeyDown(KeyCode.F1))
-        {
-            PlayVideoClip(0);
-        }
-
-        if (Input.GetKeyDown(KeyCode.F2))
-        {
-            PlayVideoClip(1);
-        }
-
-        /*
-        if (!videoPlayer.isPlaying)
-        {
-            videoPlayer.clip = vidClips[0];
-        }
-        */
+        videoPlayer.loopPointReached -= PlayIdle;
     }
 
+    #endregion
+
+    #region Methods
+
+    // Plays a video clip based on the passed int
     public void PlayVideoClip (int clipID)
     {
-        videoPlayer.clip = vidClips[clipID];
-        videoPlayer.Play();
-        videoPlayer.isLooping = false;
+        if (vidClips[clipID] != null)
+        {
+            videoPlayer.clip = vidClips[clipID];
+            videoPlayer.Play();
+            videoPlayer.isLooping = false;
+        }
     }
 
+    // Method will automatically play the 0th index clip (idle clip)
+    public void PlayIdle(UnityEngine.Video.VideoPlayer vp)
+    {
+        if (vidClips[0] != null)
+        {
+            vp.clip = vidClips[0];
+            vp.isLooping = true;
+        }
+    }
+
+    #endregion
 }
