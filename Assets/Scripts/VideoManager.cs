@@ -8,6 +8,8 @@ public class VideoManager : MonoBehaviour
     #region Variables
    
     [SerializeField] private VideoClip[] vidClips;
+    [SerializeField] private VideoClip[] fineClips;
+    [SerializeField] private VideoClip[] noClips;
     [SerializeField] public GameObject videoPlayerObj;
     private VideoPlayer videoPlayer;
   
@@ -39,6 +41,26 @@ public class VideoManager : MonoBehaviour
         if (vidClips[clipID] != null)
         {
             videoPlayer.clip = vidClips[clipID];
+            videoPlayer.Play();
+            videoPlayer.isLooping = false;
+        }
+    }
+
+    public void PlayFineClip(int clipID)
+    {
+        if (fineClips[clipID] != null)
+        {
+            videoPlayer.clip = fineClips[clipID];
+            videoPlayer.Play();
+            videoPlayer.isLooping = false;
+        }
+    }
+
+    public void PlayNoCLip(int clipID)
+    {
+        if (noClips[clipID] != null)
+        {
+            videoPlayer.clip = noClips[clipID];
             videoPlayer.Play();
             videoPlayer.isLooping = false;
         }
