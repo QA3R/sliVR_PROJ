@@ -19355,8 +19355,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 688.7219, y: -100.97217}
-  variablesScrollPos: {x: 0, y: 396.4978}
+  scrollPos: {x: -1407.2781, y: 199.02783}
+  variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
   zoom: 0.25
@@ -31663,8 +31663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 453
   indentLevel: 0
-  storyText: "No, not really, yes, mmhm, kind of, sort of, umm, I don\u2019t know,
-    yes that\u2019s fine."
+  storyText: No.
   description: 
   character: {fileID: 70581328}
   portrait: {fileID: 0}
@@ -31795,8 +31794,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 447
   indentLevel: 0
-  text: Any pain with intercourse? Do you use condoms or other means of birth control?
-    Married? Past sexually transmitted diseases?
+  text: Past sexually transmitted diseases?
   description: 
   targetBlock: {fileID: 1866310868}
   hideIfVisited: 1
