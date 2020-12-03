@@ -2200,7 +2200,7 @@ RectTransform:
   m_GameObject: {fileID: 307119833}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.7, z: 1}
+  m_LocalScale: {x: 1.2141, y: 0.84986997, z: 1.2141}
   m_Children: []
   m_Father: {fileID: 2142304887}
   m_RootOrder: 0
@@ -15424,10 +15424,29 @@ GameObject:
   - component: {fileID: 1866311378}
   - component: {fileID: 1866310849}
   - component: {fileID: 1866310755}
-  - component: {fileID: 1866310701}
   - component: {fileID: 1866311421}
   - component: {fileID: 1866311420}
   - component: {fileID: 1866311418}
+  - component: {fileID: 1866311441}
+  - component: {fileID: 1866311440}
+  - component: {fileID: 1866311439}
+  - component: {fileID: 1866311438}
+  - component: {fileID: 1866311437}
+  - component: {fileID: 1866311436}
+  - component: {fileID: 1866311435}
+  - component: {fileID: 1866311434}
+  - component: {fileID: 1866311433}
+  - component: {fileID: 1866311432}
+  - component: {fileID: 1866311431}
+  - component: {fileID: 1866311430}
+  - component: {fileID: 1866311429}
+  - component: {fileID: 1866311428}
+  - component: {fileID: 1866311427}
+  - component: {fileID: 1866311426}
+  - component: {fileID: 1866311425}
+  - component: {fileID: 1866311424}
+  - component: {fileID: 1866311423}
+  - component: {fileID: 1866310701}
   m_Layer: 0
   m_Name: SliVR_DialogueTree
   m_TagString: Untagged
@@ -15534,14 +15553,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 754
     y: 228
-    width: 60
+    width: 75
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 0
   blockName: Start
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1866310701}
   commandList:
   - {fileID: 1866310497}
   - {fileID: 1866310496}
@@ -15560,18 +15579,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1716.1781, y: 61.719177}
+  scrollPos: {x: -361.90613, y: 194.43137}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.25
+  zoom: 0.27999997
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1866310662}
   selectedCommands: []
   variables:
   - {fileID: 1866310958}
@@ -15733,7 +15753,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 730.5
     y: 299
-    width: 92
+    width: 125.00001
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15956,7 +15976,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 605.2329
     y: 342.7612
-    width: 88
+    width: 125.00001
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16131,7 +16151,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 856.0438
     y: 341.22888
-    width: 68
+    width: 103.571434
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16164,7 +16184,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 733.2409
     y: 392.4682
-    width: 86
+    width: 121.42858
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16406,7 +16426,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 953.8197
     y: 480.83643
-    width: 100
+    width: 132.14287
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16530,7 +16550,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 789.3328
     y: 480.83643
-    width: 88
+    width: 121.42858
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16654,7 +16674,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 671.9186
     y: 478.83655
-    width: 82
+    width: 114.28572
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16685,7 +16705,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 819.5879
     y: 596.38965
-    width: 116
+    width: 150
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16716,7 +16736,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 637.9182
     y: 597.58655
-    width: 74
+    width: 107.14287
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16840,7 +16860,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 527.0724
     y: 483.00922
-    width: 84
+    width: 121.42858
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17552,7 +17572,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2220.402
     y: 1148.9567
-    width: 76
+    width: 110.714294
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17730,7 +17750,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1262.6471
     y: 2057.5176
-    width: 104
+    width: 135.7143
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17760,7 +17780,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1272.1223
     y: 1950.0496
-    width: 98
+    width: 128.57144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17790,7 +17810,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1262.9465
     y: 1882.1736
-    width: 116
+    width: 146.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17820,7 +17840,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1288.5079
     y: 1814.9865
-    width: 88
+    width: 121.42858
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17850,7 +17870,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1269.7949
     y: 1723.8988
-    width: 110
+    width: 142.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17880,7 +17900,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1258.5995
     y: 1654.7385
-    width: 138
+    width: 167.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17910,7 +17930,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1273.6002
     y: 1544.4603
-    width: 60
+    width: 92.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17942,7 +17962,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1280.1416
     y: 1384.2161
-    width: 60
+    width: 85.714294
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17973,7 +17993,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1283.2795
     y: 1245.0859
-    width: 72
+    width: 107.14287
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18003,7 +18023,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1280.5219
     y: 1129.3536
-    width: 136
+    width: 167.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18036,7 +18056,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1267.0312
     y: 920.33154
-    width: 114
+    width: 142.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18066,7 +18086,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1297.3766
     y: 753.5484
-    width: 60
+    width: 96.42857
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18098,7 +18118,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1296.7924
     y: 616.82404
-    width: 64
+    width: 100
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18130,7 +18150,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1298.7654
     y: 509.42078
-    width: 62
+    width: 96.42857
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18160,7 +18180,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1295.869
     y: 418.46783
-    width: 84
+    width: 117.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18985,7 +19005,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 852.7555
     y: 959.0105
-    width: 136
+    width: 167.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19015,7 +19035,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 713.09937
     y: 957.7307
-    width: 106
+    width: 139.28572
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19045,7 +19065,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 700.484
     y: 1144.4323
-    width: 130
+    width: 160.7143
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19217,7 +19237,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 595.5575
     y: 960.29004
-    width: 84
+    width: 121.42858
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19364,7 +19384,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 723.91785
     y: 885.2341
-    width: 84
+    width: 117.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19556,7 +19576,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 725.17426
     y: 821.0499
-    width: 78
+    width: 114.28572
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19678,7 +19698,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 823.00684
     y: 756.97955
-    width: 70
+    width: 107.14287
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19709,7 +19729,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 634.7218
     y: 753.2107
-    width: 74
+    width: 107.14287
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19832,7 +19852,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 820.6924
     y: 680.25604
-    width: 68
+    width: 103.571434
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20140,7 +20160,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 620.6763
     y: 677.22864
-    width: 114
+    width: 150
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20582,9 +20602,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2707.979
-    y: 1146.8276
-    width: 60
+    x: 2728.2915
+    y: 1143.7026
+    width: 85.714294
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20593,6 +20613,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1866311439}
   - {fileID: 1866310648}
   - {fileID: 1866310647}
   - {fileID: 1866310646}
@@ -20799,7 +20820,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2509.979
     y: 1211.8279
-    width: 140
+    width: 171.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20808,6 +20829,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1866311440}
   - {fileID: 1866310652}
   - {fileID: 1866310651}
   - {fileID: 1866310650}
@@ -20829,7 +20851,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2510.979
     y: 1168.8274
-    width: 132
+    width: 164.28574
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20838,6 +20860,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1866311441}
   - {fileID: 1866310656}
   - {fileID: 1866310655}
   - {fileID: 1866311339}
@@ -20859,9 +20882,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2509.979
+    x: 2511.5415
     y: 1127.8276
-    width: 96
+    width: 132.14287
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20892,7 +20915,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2509.979
     y: 1086.8276
-    width: 124
+    width: 160.7143
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20923,7 +20946,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2347.484
     y: 1150.935
-    width: 106
+    width: 139.28572
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22840,7 +22863,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1866310701
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -22850,7 +22873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1866311419}
+  parentBlock: {fileID: 1866310499}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
 --- !u!114 &1866310702
@@ -24245,7 +24268,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1837.6261
     y: 1605.1699
-    width: 102
+    width: 139.28572
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24278,7 +24301,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1837.8488
     y: 1571.1357
-    width: 102
+    width: 139.28572
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24311,7 +24334,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1838.344
     y: 1535.9789
-    width: 102
+    width: 139.28572
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24344,7 +24367,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1837.7539
     y: 1501.3455
-    width: 100
+    width: 139.28572
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24721,7 +24744,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1839.0764
     y: 1385.8733
-    width: 96
+    width: 132.14287
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24752,7 +24775,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1840.505
     y: 1350.683
-    width: 94
+    width: 132.14287
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25780,7 +25803,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1835.9069
     y: 810.1171
-    width: 108
+    width: 142.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26032,7 +26055,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1836.9083
     y: 775.6119
-    width: 108
+    width: 142.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26147,7 +26170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1838.9081
     y: 742.116
-    width: 108
+    width: 142.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26262,7 +26285,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1838.5605
     y: 709.9733
-    width: 106
+    width: 142.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26607,7 +26630,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1832.2023
     y: 667.73737
-    width: 112
+    width: 146.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26722,7 +26745,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1834.5278
     y: 631.908
-    width: 112
+    width: 146.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26837,7 +26860,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1835.2035
     y: 599.7363
-    width: 112
+    width: 146.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26952,7 +26975,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1834.8435
     y: 564.88025
-    width: 110
+    width: 146.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27174,7 +27197,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1836.2064
     y: 519.7488
-    width: 110
+    width: 142.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27207,7 +27230,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1837.7062
     y: 485.25293
-    width: 108
+    width: 142.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27389,7 +27412,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1821.606
     y: 342.57794
-    width: 130
+    width: 164.28574
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27475,7 +27498,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3653.886
     y: 655.21387
-    width: 60
+    width: 71.42857
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27624,7 +27647,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3231.2366
     y: 445.15198
-    width: 60
+    width: 96.42857
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27657,7 +27680,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3211.9355
     y: 661.0963
-    width: 60
+    width: 96.42857
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27666,6 +27689,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1866311424}
   - {fileID: 1866310828}
   - {fileID: 1866310834}
   - {fileID: 1866310833}
@@ -27686,7 +27710,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3094.493
     y: 662.4962
-    width: 60
+    width: 96.42857
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27695,6 +27719,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1866311425}
   - {fileID: 1866310829}
   - {fileID: 1866310836}
   - {fileID: 1866310835}
@@ -28347,7 +28372,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3575.4507
     y: 1382.9082
-    width: 80
+    width: 114.28572
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28382,7 +28407,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3575.4497
     y: 1323.2456
-    width: 80
+    width: 114.28572
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28417,7 +28442,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3574.153
     y: 1264.8794
-    width: 80
+    width: 114.28572
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28427,6 +28452,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1866310859}
+  - {fileID: 1866311426}
   - {fileID: 1866310855}
   - {fileID: 1866310714}
   - {fileID: 1866311332}
@@ -28451,8 +28477,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 3578.0273
-    y: 1202.6226
-    width: 78
+    y: 1204.185
+    width: 114.28572
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28485,9 +28511,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3400.3516
-    y: 1286.9292
-    width: 114
+    x: 3401.914
+    y: 1288.4917
+    width: 146.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28499,6 +28525,7 @@ MonoBehaviour:
   - {fileID: 1866310866}
   - {fileID: 1866311504}
   - {fileID: 1866310865}
+  - {fileID: 1866311427}
   - {fileID: 1866311503}
   - {fileID: 1866311502}
   - {fileID: 1866311501}
@@ -28614,9 +28641,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3566.3638
+    x: 3569.4888
     y: 1117.011
-    width: 70
+    width: 103.571434
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28625,6 +28652,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1866311429}
   - {fileID: 1866310876}
   - {fileID: 1866310875}
   - {fileID: 1866310722}
@@ -28713,7 +28741,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3405.544
     y: 1117.02
-    width: 68
+    width: 103.571434
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28722,6 +28750,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1866311430}
   - {fileID: 1866310880}
   - {fileID: 1866310879}
   - {fileID: 1866310878}
@@ -29035,7 +29064,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3706.43
     y: 1013.97754
-    width: 86
+    width: 121.42858
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29044,6 +29073,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1866311431}
   - {fileID: 1866310894}
   - {fileID: 1866310893}
   - {fileID: 1866310752}
@@ -29063,9 +29093,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3565.652
-    y: 1013.6405
-    width: 84
+    x: 3564.0896
+    y: 1010.5155
+    width: 121.42858
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29074,6 +29104,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1866311432}
   - {fileID: 1866310891}
   - {fileID: 1866310890}
   - {fileID: 1866310889}
@@ -29092,9 +29123,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3406.0134
-    y: 1047.9641
-    width: 80
+    x: 3423.201
+    y: 1068.2766
+    width: 117.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29103,6 +29134,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1866311428}
   - {fileID: 1866310885}
   - {fileID: 1866310884}
   - {fileID: 1866310748}
@@ -29124,9 +29156,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3406.0134
+    x: 3404.451
     y: 1012.9641
-    width: 108
+    width: 142.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29135,6 +29167,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1866311433}
   - {fileID: 1866310888}
   - {fileID: 1866310887}
   - {fileID: 1866310886}
@@ -29295,9 +29328,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3409.7268
-    y: 969.1487
-    width: 76
+    x: 3444.1018
+    y: 953.5237
+    width: 110.714294
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29750,9 +29783,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3570.4976
-    y: 922.6339
-    width: 82
+    x: 3597.06
+    y: 886.6964
+    width: 117.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29780,9 +29813,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3406.8804
-    y: 924.7715
-    width: 82
+    x: 3433.4429
+    y: 888.834
+    width: 117.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29791,6 +29824,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1866311434}
   - {fileID: 1866310906}
   - {fileID: 1866310908}
   - {fileID: 1866310909}
@@ -29809,9 +29843,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3406.883
-    y: 887.46484
-    width: 80
+    x: 3433.4456
+    y: 851.52734
+    width: 117.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29820,6 +29854,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1866311435}
   - {fileID: 1866311505}
   - {fileID: 1866310924}
   - {fileID: 1866310765}
@@ -29841,7 +29876,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3224.4336
     y: 1287.5796
-    width: 144
+    width: 171.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29870,7 +29905,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3236.6377
     y: 1116.4607
-    width: 102
+    width: 132.14287
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29899,7 +29934,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3228.378
     y: 1033.6438
-    width: 108
+    width: 142.85715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29929,7 +29964,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3225.918
     y: 969.53735
-    width: 110
+    width: 139.28572
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29958,7 +29993,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3226.2988
     y: 901.6615
-    width: 114
+    width: 146.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29988,7 +30023,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2981.0237
     y: 662.23193
-    width: 60
+    width: 96.42857
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30041,9 +30076,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2965.4219
+    x: 2959.9673
     y: 1037.0118
-    width: 94
+    width: 128.57144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30204,7 +30239,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2982.0955
     y: 1146.792
-    width: 64
+    width: 100
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30213,6 +30248,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1866311436}
   - {fileID: 1866310939}
   - {fileID: 1866310938}
   - {fileID: 1866310937}
@@ -30328,7 +30364,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2820.9248
     y: 1164.5598
-    width: 96
+    width: 128.57144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30337,6 +30373,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1866311437}
   - {fileID: 1866310945}
   - {fileID: 1866310944}
   - {fileID: 1866310943}
@@ -30357,7 +30394,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2820.8386
     y: 1128.4609
-    width: 94
+    width: 128.57144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30366,6 +30403,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1866311438}
   - {fileID: 1866310946}
   - {fileID: 1866310941}
   - {fileID: 1866310940}
@@ -38207,7 +38245,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1828.4067
     y: 1146.2312
-    width: 112
+    width: 146.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38508,7 +38546,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1831.5713
     y: 1177.8768
-    width: 112
+    width: 146.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38784,7 +38822,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1828.9763
     y: 1109.839
-    width: 112
+    width: 146.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -39084,7 +39122,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1828.9763
     y: 1075.0289
-    width: 110
+    width: 146.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -39435,7 +39473,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1817.8718
     y: 378.97028
-    width: 132
+    width: 164.28574
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -39710,7 +39748,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1819.4541
     y: 413.78046
-    width: 132
+    width: 164.28574
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -39768,7 +39806,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1837.5087
     y: 1425.3563
-    width: 96
+    width: 132.14287
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -40094,7 +40132,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1832.5754
     y: 1278.2842
-    width: 118
+    width: 153.57144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -40372,7 +40410,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1828.4375
     y: 1754.2362
-    width: 110
+    width: 146.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -40647,7 +40685,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1828.0443
     y: 1885.2307
-    width: 118
+    width: 153.57144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -40972,7 +41010,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1829.0972
     y: 1714.4702
-    width: 108
+    width: 146.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -41248,7 +41286,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1827.5692
     y: 1662.5195
-    width: 114
+    width: 150
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -48084,7 +48122,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3419.966
     y: 563.20715
-    width: 90
+    width: 128.57144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -48431,7 +48469,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1825.9281
     y: 906.4767
-    width: 120
+    width: 153.57144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -48733,7 +48771,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1823.7869
     y: 946.0913
-    width: 122
+    width: 153.57144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -49110,7 +49148,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1836.2456
     y: 2050.4646
-    width: 118
+    width: 153.57144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -49412,7 +49450,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1832.3486
     y: 1957.0667
-    width: 112
+    width: 146.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -49714,7 +49752,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1830.5011
     y: 1826.7505
-    width: 110
+    width: 146.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -50418,7 +50456,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3431.1523
     y: 531.1656
-    width: 66
+    width: 103.571434
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -58838,9 +58876,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3301.658
-    y: 661.9741
-    width: 106
+    x: 3320.408
+    y: 663.5366
+    width: 139.28572
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -58849,6 +58887,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1866311423}
   - {fileID: 1866311378}
   - {fileID: 1866310849}
   - {fileID: 1866310755}
@@ -63269,14 +63308,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3461.2844
     y: 662.13196
-    width: 136
+    width: 171.42859
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 1558
   blockName: NRQuestions (Copy)
   description: 
-  eventHandler: {fileID: 1866310701}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1866311417}
   - {fileID: 1866311416}
@@ -63356,6 +63395,861 @@ MonoBehaviour:
   itemId: 1560
   indentLevel: 0
   menuDialog: {fileID: 393270354}
+--- !u!114 &1866311423
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1581
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 49
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1866311424
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1580
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 48
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1866311425
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1579
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 47
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1866311426
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1578
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 46
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1866311427
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1577
+  indentLevel: 1
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 45
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1866311428
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1576
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 44
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1866311429
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1575
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 43
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1866311430
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1574
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 42
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1866311431
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1573
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 41
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1866311432
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1572
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 29
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1866311433
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1571
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 40
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1866311434
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1570
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 38
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1866311435
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1569
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 37
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1866311436
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1568
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 36
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1866311437
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1567
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 35
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1866311438
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1566
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 34
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1866311439
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1565
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 32
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1866311440
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1564
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 31
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1866311441
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1563
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 4438606493612460122}
+  targetComponentAssemblyName: VideoManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: VideoManager
+  targetMethod: PlayVideoClip
+  targetMethodText: 'PlayVideoClip (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 30
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &1866311449
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -67653,7 +68547,7 @@ PrefabInstance:
     - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
         type: 3}
       propertyPath: vidClips.Array.size
-      value: 30
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
         type: 3}
@@ -67725,6 +68619,126 @@ PrefabInstance:
       propertyPath: vidClips.Array.data[29]
       value: 
       objectReference: {fileID: 32900000, guid: 87b96cd3bebb70b4d9fc6951948347c4,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[30]
+      value: 
+      objectReference: {fileID: 32900000, guid: 45d1012139eb5724b9584ce9c4dc9f23,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[31]
+      value: 
+      objectReference: {fileID: 32900000, guid: 980ce638344b4c84d8e8de73b36074ff,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[32]
+      value: 
+      objectReference: {fileID: 32900000, guid: ed4761888c21c9e4ab1c810f24df4842,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[33]
+      value: 
+      objectReference: {fileID: 32900000, guid: a1e315970c2a91940b197a56675fe158,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[34]
+      value: 
+      objectReference: {fileID: 32900000, guid: 28b548da38f857e44a4d095c2f7d0b6d,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[35]
+      value: 
+      objectReference: {fileID: 32900000, guid: 5f7dff1347e5ab445a5c1875f2b97bd3,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[36]
+      value: 
+      objectReference: {fileID: 32900000, guid: d668974a966b45440918851e29984fd1,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[37]
+      value: 
+      objectReference: {fileID: 32900000, guid: b34f5509aa4ff2b4f845ed869d5d5588,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[38]
+      value: 
+      objectReference: {fileID: 32900000, guid: 26e702bac98b0954fbb27f04def5158e,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[39]
+      value: 
+      objectReference: {fileID: 32900000, guid: 404df0330a7bd7948ab79c0ab3c3c64e,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[40]
+      value: 
+      objectReference: {fileID: 32900000, guid: 1de99ba99ebb5fc4eaea0a72d732a024,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[41]
+      value: 
+      objectReference: {fileID: 32900000, guid: e10c97e7fe348e7499c7273fb840446a,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[42]
+      value: 
+      objectReference: {fileID: 32900000, guid: ee0d19853dbb9c84ab8bbd3e48e4fbd1,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[43]
+      value: 
+      objectReference: {fileID: 32900000, guid: 1563b313798651f47b2eca2d5d98d6bd,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[44]
+      value: 
+      objectReference: {fileID: 32900000, guid: 89e2fa2c85047a549894ef77432339f4,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[45]
+      value: 
+      objectReference: {fileID: 32900000, guid: 67615cb925a3d6949b7b5df5afd1133d,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[46]
+      value: 
+      objectReference: {fileID: 32900000, guid: a5ddef22feda3ff489cab1bbc4c9dc74,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[47]
+      value: 
+      objectReference: {fileID: 32900000, guid: 4435c5643534b38419f16df9e2ea6631,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[48]
+      value: 
+      objectReference: {fileID: 32900000, guid: f834c2809800a594ca905d2931a3e87a,
+        type: 3}
+    - target: {fileID: 1409524654066174018, guid: 9a1c949f83d81af488ab31cafeb5a08c,
+        type: 3}
+      propertyPath: vidClips.Array.data[49]
+      value: 
+      objectReference: {fileID: 32900000, guid: bec661aa2a995c54491e9f548e0bf7ab,
         type: 3}
     - target: {fileID: 5915764029379974539, guid: 9a1c949f83d81af488ab31cafeb5a08c,
         type: 3}
