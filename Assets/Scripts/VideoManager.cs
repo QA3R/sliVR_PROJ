@@ -56,7 +56,7 @@ public class VideoManager : MonoBehaviour
         }
     }
 
-    public void PlayNoCLip(int clipID)
+    public void PlayNoClip(int clipID)
     {
         if (noClips[clipID] != null)
         {
