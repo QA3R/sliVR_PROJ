@@ -21025,6 +21025,8 @@ GameObject:
   - component: {fileID: 1866310705}
   - component: {fileID: 1866310701}
   - component: {fileID: 1866311360}
+  - component: {fileID: 1866311374}
+  - component: {fileID: 1866311373}
   m_Layer: 0
   m_Name: SliVR_DialogueTree
   m_TagString: Untagged
@@ -21167,8 +21169,28 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1866311216}
+  selectedCommands:
+  - {fileID: 1866311373}
+  - {fileID: 1866311372}
+  - {fileID: 1866311371}
+  - {fileID: 1866311369}
+  - {fileID: 1866311368}
+  - {fileID: 1866311367}
+  - {fileID: 1866311366}
+  - {fileID: 1866311365}
+  - {fileID: 1866311364}
+  - {fileID: 1866311363}
+  - {fileID: 1866311362}
+  - {fileID: 1866311276}
+  - {fileID: 1866311361}
+  - {fileID: 1866310755}
+  - {fileID: 1866310751}
+  - {fileID: 1866310747}
+  - {fileID: 1866310705}
+  - {fileID: 1866310701}
+  - {fileID: 1866311374}
   variables:
   - {fileID: 1866310958}
   - {fileID: 1866310957}
@@ -52365,6 +52387,8 @@ MonoBehaviour:
   - {fileID: 1866310747}
   - {fileID: 1866310705}
   - {fileID: 1866310701}
+  - {fileID: 1866311374}
+  - {fileID: 1866311373}
   suppressAllAutoSelections: 0
 --- !u!114 &1866311217
 MonoBehaviour:
@@ -61609,6 +61633,46 @@ MonoBehaviour:
   itemId: 1585
   indentLevel: 0
   menuDialog: {fileID: 159757694}
+--- !u!114 &1866311373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1603
+  indentLevel: 0
+  text: End
+  description: 
+  targetBlock: {fileID: 0}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1866311374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866310495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b097b9790a8a1456a86bc4d322b487db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1602
+  indentLevel: 0
+  menuDialog: {fileID: 422988929}
 --- !u!114 &1866311386
 MonoBehaviour:
   m_ObjectHideFlags: 2
