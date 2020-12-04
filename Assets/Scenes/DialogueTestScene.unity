@@ -19253,15 +19253,15 @@ MonoBehaviour:
   storyText: "<b>Patient details:</b> Mrs. Patricia Wilson, a 49-year-old woman \r\n<b>Your
     role:</b> You are the doctor in the medical admissions unit \n<b>Presenting complaint:</b>
     Chest pain \r\n\nPlease read the letter printed below. When the bell sounds,
-    enter the room. You have 14 minutes to take a history from the patient, 1 minute
-    to collect your thoughts and 5 minutes for discussion.  You may make notes if
-    you wish. \r\n\n\t<b>Referral text:</b> \r\n\n\tDear Doctor, \r\n\n\tThis patient
-    presented to the emergency department with a 20-minute \n\thistory of central
-    chest pain. Examination is unremarkable and her ECG \n\tis normal. \r\n\n\tPlease
-    advise on further investigation and management. \r\n\n\tYours faithfully, \r\n\n<b>Your
-    task</b> is to interview the patient and, based on the history you obtain, construct
-    a differential diagnosis and plan for investigation. You should explain these
-    to the patient and answer any questions they may have. "
+    enter the room. \nYou have 14 minutes to take a history from the patient, 1 minute
+    to collect \nyour thoughts and 5 minutes for discussion.  You may make notes
+    if you wish. \r\n\n\t<b>Referral text:</b> \r\n\n\tDear Doctor, \r\n\n\tThis
+    patient presented to the emergency department with a 20-minute \n\thistory of
+    central chest pain. Examination is unremarkable and her ECG \n\tis normal. \r\n\n\tPlease
+    advise on further investigation and management. \r\n\n\tYours faithfully, \r\n\t\n\tDr.
+    Smith\n\n\n\n\n<b>Your task</b> is to interview the patient and, based on the
+    history you \nobtain, construct a differential diagnosis and plan for investigation.
+    You \nshould explain these to the patient and answer any questions they may have. "
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -19361,7 +19361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 207.91553, y: 896.24884}
+  scrollPos: {x: 187.01562, y: 252.92175}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -19372,8 +19372,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1866310499}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 1866310958}
@@ -19533,7 +19532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 730.5
+    x: 728.5
     y: 299
     width: 92
     height: 40
@@ -26620,7 +26619,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1866310701
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -28127,7 +28126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 261
   indentLevel: 0
-  text: Are you going to the bathroom regularly?
+  text: Any issues concerning your bathroom habits?
   description: 
   targetBlock: {fileID: 1866310728}
   hideIfVisited: 1
@@ -50774,7 +50773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: NR18
-  value: 0
+  value: 1
 --- !u!114 &1866311189
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -50874,7 +50873,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: NR13
-  value: 0
+  value: 1
 --- !u!114 &1866311195
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -50979,7 +50978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: NR5
-  value: 0
+  value: 1
 --- !u!114 &1866311202
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -51064,7 +51063,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: NR1
-  value: 0
+  value: 1
 --- !u!114 &1866311207
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -60962,7 +60961,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: NR25
-  value: 0
+  value: 1
 --- !u!114 &1866311341
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -60992,7 +60991,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: NR23
-  value: 0
+  value: 1
 --- !u!114 &1866311343
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -61037,7 +61036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: NR20
-  value: 0
+  value: 1
 --- !u!114 &1866311346
 MonoBehaviour:
   m_ObjectHideFlags: 2
