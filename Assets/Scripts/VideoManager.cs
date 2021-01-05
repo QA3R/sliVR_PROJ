@@ -7,10 +7,13 @@ public class VideoManager : MonoBehaviour
 {
     #region Variables
    
+    [SerializeField] private List<VideoClip> videoClips;
     [SerializeField] private VideoClip[] vidClips;
     [SerializeField] private VideoClip[] fineClips;
     [SerializeField] private VideoClip[] noClips;
+
     [SerializeField] public GameObject videoPlayerObj;
+    
     private VideoPlayer videoPlayer;
   
     #endregion
@@ -34,15 +37,19 @@ public class VideoManager : MonoBehaviour
     #endregion
 
     #region Methods
-
-    // Plays a video clip based on the passed int
-    public void PlayVideoClip (int clipID)
+    //Plays video clip based on string input (video file name)
+    public void PlayVideo(string clipName)
     {
-        if (vidClips[clipID] != null)
+        for(var i =0; i < videoClips.Count; i++)
         {
-            videoPlayer.clip = vidClips[clipID];
-            videoPlayer.Play();
-            videoPlayer.isLooping = false;
+            if (clipName == videoClips[i].name)
+            {
+                videoPlayer.clip = videoClips[i];
+                videoPlayer.Play();
+                videoPlayer.isLooping = false;
+                Debug.Log("video clip: " + clipName + " was found");
+                break;
+            }
         }
     }
 
@@ -69,9 +76,9 @@ public class VideoManager : MonoBehaviour
     // Method will automatically play the 0th index clip (idle clip)
     public void PlayIdle(UnityEngine.Video.VideoPlayer vp)
     {
-        if (vidClips[0] != null)
+        if (videoClips[0] != null)
         {
-            vp.clip = vidClips[0];
+            vp.clip = videoClips[0];
             vp.isLooping = true;
         }
     }
