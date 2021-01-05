@@ -10,10 +10,6 @@ namespace Simulence.Video
         #region Variables
    
         [SerializeField] private List<VideoClip> videoClips;
-        [SerializeField] private VideoClip[] vidClips;
-        [SerializeField] private VideoClip[] fineClips;
-        [SerializeField] private VideoClip[] noClips;
-
         [SerializeField] public GameObject videoPlayerObj;
     
         private VideoPlayer videoPlayer;
@@ -52,26 +48,6 @@ namespace Simulence.Video
                     Debug.Log("video clip: " + clipName + " was found");
                     break;
                 }
-            }
-        }
-
-        public void PlayFineClip(int clipID)
-        {
-            if (fineClips[clipID] != null)
-            {
-                videoPlayer.clip = fineClips[clipID];
-                videoPlayer.Play();
-                videoPlayer.isLooping = false;
-            }
-        }
-
-        public void PlayNoClip(int clipID)
-        {
-            if (noClips[clipID] != null)
-            {
-                videoPlayer.clip = noClips[clipID];
-                videoPlayer.Play();
-                videoPlayer.isLooping = false;
             }
         }
 
